@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pt-MZ">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101114">
+  <meta name="theme-color" content="#f4f3ee" media="(prefers-color-scheme: light)">
+  <meta name="description" content="Portfólio de Allan Marcelino Melo — Desenvolvedor Web e Técnico de TI em Maputo, Moçambique.">
+  <title>Allan Melo — Desenvolvedor Web & Técnico de TI</title>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='Inter,sans-serif' font-weight='900' fill='%23b8f36b'>A</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+
+  <meta property="og:title" content="Allan Melo — Desenvolvedor Web & Técnico de TI">
+  <meta property="og:description" content="Portfólio de Allan Marcelino Melo, de Maputo. Desenvolvimento web, sistemas de gestão e suporte informático.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#inicio" aria-label="Allan Melo, início" data-i18n="brand">allan.melo</a>
+      <div class="nav-links">
+        <a href="#projetos" data-i18n="nav.projects">projectos</a>
+        <a href="#sobre" data-i18n="nav.about">sobre</a>
+        <a href="#competencias" data-i18n="nav.skills">skills</a>
+        <a href="#servicos" data-i18n="nav.services">serviços</a>
+        <a href="#experiencia" data-i18n="nav.path">percurso</a>
+        <a href="blog.html" data-i18n="nav.blog">blog</a>
+        <button class="lang-btn" id="langToggle" aria-label="Mudar idioma">EN</button>
+        <button class="theme-btn" id="themeToggle" aria-label="Alternar tema">
+          <span class="icon-sun">☀</span>
+          <span class="icon-moon">☾</span>
+        </button>
+        <a class="nav-cta" href="#contacto" data-i18n="nav.contact">Contacto ↗</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- HERO -->
+    <header class="hero wrap" id="inicio">
+      <div class="eyebrow">
+        <span class="dot"></span>
+        <span data-i18n="hero.eyebrow">Maputo, Moçambique · Disponível</span>
+      </div>
+      <h1 data-i18n-html="hero.title">Transformo ideias em <em>soluções digitais.</em></h1>
+
+      <div class="hero-bottom">
+        <div>
+          <p class="intro" data-i18n="hero.intro">Sou Allan Melo — desenvolvedor web e técnico de TI. Crio produtos digitais úteis, interfaces simples e sistemas que resolvem problemas reais.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#projetos">
+              <span data-i18n="hero.cta1">Ver projectos</span> <span aria-hidden="true">↘</span>
+            </a>
+            <a class="btn btn-secondary" href="#contacto" data-i18n="hero.cta2">Falar comigo</a>
+          </div>
+        </div>
+        <div class="hero-note">
+          <strong data-i18n="hero.note.title">Desenvolvimento web</strong>
+          <span data-i18n="hero.note.body">Do conceito à funcionalidade, com foco em pessoas e resultados.</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- TICKER -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span><b>01</b> <span data-i18n="tick.1">Desenvolvimento web</span></span>
+        <span><b>02</b> <span data-i18n="tick.2">Sistemas de gestão</span></span>
+        <span><b>03</b> <span data-i18n="tick.3">Bases de dados</span></span>
+        <span><b>04</b> <span data-i18n="tick.4">Suporte informático</span></span>
+        <span><b>05</b> <span data-i18n="tick.5">UI & usabilidade</span></span>
+        <span><b>01</b> <span data-i18n="tick.1">Desenvolvimento web</span></span>
+        <span><b>02</b> <span data-i18n="tick.2">Sistemas de gestão</span></span>
+        <span><b>03</b> <span data-i18n="tick.3">Bases de dados</span></span>
+        <span><b>04</b> <span data-i18n="tick.4">Suporte informático</span></span>
+        <span><b>05</b> <span data-i18n="tick.5">UI & usabilidade</span></span>
+      </div>
+    </div>
+
+    <!-- PROJECTS -->
+    <section id="projetos">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="kicker" data-i18n="proj.kicker">Trabalho seleccionado</div>
+            <h2 data-i18n-html="proj.title">Projectos com <em>propósito.</em></h2>
+          </div>
+          <p class="section-desc" data-i18n="proj.desc">Sistemas e ideias que desenvolvi para organizar informação, simplificar tarefas e melhorar experiências digitais.</p>
+        </div>
+
+        <div class="projects">
+
+          <!-- KofreOS — grande -->
+          <article class="project project-featured">
+            <div class="project-visual visual-kofre">
+              <img src="assets/kofreos.png" alt="Screenshot do KofreOS" class="project-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <div class="mock fallback" style="display:none">
+                <div class="mock-top"><i></i><i></i><i></i></div>
+                <div class="mock-label">KofreOS / espaço pessoal</div>
+                <div class="mock-title">Os teus documentos.<br>Num só lugar.</div>
+                <div class="kofre-grid">
+                  <div class="kofre-tile">🔒</div>
+                  <div class="kofre-tile">📄</div>
+                  <div class="kofre-tile">🪪</div>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <h3>KofreOS</h3>
+                <span class="project-type" data-i18n="proj.kofre.type">Produto digital</span>
+              </div>
+              <p data-i18n="proj.kofre.desc">Desenvolvi uma plataforma web para centralizar e organizar documentos pessoais num único espaço digital, facilitando a consulta, a pesquisa e o acompanhamento de prazos de validade, com o objectivo de reduzir a perda de documentos e simplificar a sua gestão.</p>
+              <div class="tags">
+                <span class="tag">PHP</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">PWA</span>
+              </div>
+              <div class="project-actions">
+                <!-- Substitui TEU_URL_KOFREOS pelo URL real, ou apaga esta linha se não existir -->
+                <a class="project-link" href="TEU_URL_KOFREOS" target="_blank" rel="noopener noreferrer">
+                  <span data-i18n="proj.viewSite">Ver site</span> <span aria-hidden="true">↗</span>
+                </a>
+                <!-- Substitui TEU_URL_REPO_KOFREOS pelo URL do GitHub, ou apaga esta linha -->
+                <a class="project-link muted" href="TEU_URL_REPO_KOFREOS" target="_blank" rel="noopener noreferrer">
+                  <span data-i18n="proj.viewCode">Código</span> <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Fila Segura -->
+          <article class="project">
+            <div class="project-visual visual-fila">
+              <img src="assets/fila.png" alt="Screenshot do Fila Segura" class="project-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <div class="mock fallback" style="display:none">
+                <div class="mock-top"><i></i><i></i><i></i></div>
+                <div class="mock-label">Fila Segura / painel</div>
+                <div class="fila-panel">
+                  <div class="fila-big">
+                    <small>A chamar</small>
+                    <b>Nº 14</b>
+                  </div>
+                  <div class="fila-mini">Em espera<b>04</b></div>
+                  <div class="fila-mini">Atendidas<b>08</b></div>
+                  <div class="fila-mini">Tempo médio<b>6m</b></div>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <h3>Fila Segura</h3>
+                <span class="project-type" data-i18n="proj.fila.type">Sistema web</span>
+              </div>
+              <p data-i18n="proj.fila.desc">Desenvolvi um sistema de gestão de filas de atendimento para organizar o fluxo de utentes, facilitar o controlo de senhas e melhorar o acompanhamento do atendimento, com diferentes níveis de acesso para administradores, operadores e utilizadores.</p>
+              <div class="tags">
+                <span class="tag">PHP</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <div class="project-actions">
+                <span class="project-link muted disabled">
+                  <span data-i18n="proj.inProgress">Em desenvolvimento</span>
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <!-- SIGEC -->
+          <article class="project">
+            <div class="project-visual visual-sigec">
+              <img src="assets/sigec.png" alt="Screenshot do SIGEC" class="project-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <div class="mock fallback" style="display:none">
+                <div class="mock-top"><i></i><i></i><i></i></div>
+                <div class="mock-label">SIGEC / gestão</div>
+                <div class="sigec-table">
+                  <div class="sigec-row head"><span>Nº</span><span>Requisição</span><span>Estado</span></div>
+                  <div class="sigec-row"><span>001</span><span>Material informático</span><span class="badge">OK</span></div>
+                  <div class="sigec-row"><span>002</span><span>Equipamento rede</span><span class="badge muted">Pend.</span></div>
+                  <div class="sigec-row"><span>003</span><span>Consumíveis</span><span class="badge">OK</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <h3>SIGEC</h3>
+                <span class="project-type" data-i18n="proj.sigec.type">Sistema de gestão</span>
+              </div>
+              <p data-i18n="proj.sigec.desc">Desenvolvi um sistema web de gestão de informação e processos administrativos, orientado para centralizar dados, organizar tarefas e controlar o acesso dos utilizadores, contribuindo para uma gestão institucional mais organizada e eficiente.</p>
+              <div class="tags">
+                <span class="tag">PHP</span>
+                <span class="tag">Bases de dados</span>
+                <span class="tag">UI</span>
+              </div>
+              <div class="project-actions">
+                <span class="project-link muted disabled">
+                  <span data-i18n="proj.private">Projecto institucional</span>
+                </span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="sobre">
+      <div class="wrap about-grid">
+        <div class="about-card">
+          <div class="monogram">AM.</div>
+          <div>
+            <div class="eyebrow" data-i18n="about.card.eyebrow">O lado humano da tecnologia</div>
+            <p data-i18n="about.card.text">Curiosidade para aprender, atenção aos detalhes e vontade de transformar problemas em soluções práticas.</p>
+          </div>
+        </div>
+        <div class="about-copy">
+          <div class="kicker" data-i18n="about.kicker">Sobre mim</div>
+          <h2 data-i18n-html="about.title">Construo, aprendo<br>e <em>melhoro sempre.</em></h2>
+          <p data-i18n="about.p1">Sou Allan Marcelino Melo, de Maputo, Moçambique. Concluí a formação CV5 em Técnico de Programação de Aplicações Web, depois de uma base em suporte informático. Tenho interesse especial no desenvolvimento de aplicações web, na criação de produtos digitais e na tecnologia aplicada a necessidades do dia-a-dia.</p>
+          <p data-i18n="about.p2">Gosto de acompanhar um projecto desde a ideia e estrutura da interface até à lógica, à base de dados e aos testes. Procuro escrever soluções claras, aprender com cada desafio e continuar a crescer como profissional.</p>
+
+          <div class="facts">
+            <div class="fact">
+              <strong data-i18n="fact.1.title">Formação CV5</strong>
+              <span data-i18n="fact.1.sub">Programação de Aplicações Web</span>
+            </div>
+            <div class="fact">
+              <strong data-i18n="fact.2.title">Maputo, MZ</strong>
+              <span data-i18n="fact.2.sub">Baseado em Moçambique</span>
+            </div>
+            <div class="fact">
+              <strong data-i18n="fact.3.title">Full stack web</strong>
+              <span data-i18n="fact.3.sub">Interesse principal</span>
+            </div>
+            <div class="fact">
+              <strong data-i18n="fact.4.title">Aprendizagem contínua</strong>
+              <span data-i18n="fact.4.sub">Prática e projectos próprios</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills-section" id="competencias">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="kicker" data-i18n="skills.kicker">O que trago</div>
+            <h2 data-i18n="skills.title">Competências.</h2>
+          </div>
+          <p class="section-desc" data-i18n="skills.desc">Uma combinação de desenvolvimento, bases de dados e conhecimentos técnicos para construir e manter soluções.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill"><span class="num">01 / WEB</span><h3 data-i18n="skill.1.t">Frontend</h3><p data-i18n="skill.1.d">HTML, CSS, JavaScript e interfaces responsivas.</p></div>
+          <div class="skill"><span class="num">02 / BACKEND</span><h3 data-i18n="skill.2.t">Backend</h3><p data-i18n="skill.2.d">PHP, lógica de aplicações e operações CRUD.</p></div>
+          <div class="skill"><span class="num">03 / DATA</span><h3 data-i18n="skill.3.t">Bases de dados</h3><p data-i18n="skill.3.d">MySQL, modelação e integração com aplicações.</p></div>
+          <div class="skill"><span class="num">04 / CODE</span><h3 data-i18n="skill.4.t">Programação</h3><p data-i18n="skill.4.d">Java e fundamentos de programação.</p></div>
+          <div class="skill"><span class="num">05 / IT</span><h3 data-i18n="skill.5.t">Suporte informático</h3><p data-i18n="skill.5.d">Diagnóstico, configuração e resolução de problemas.</p></div>
+          <div class="skill"><span class="num">06 / DESIGN</span><h3 data-i18n="skill.6.t">UI e design web</h3><p data-i18n="skill.6.d">Estrutura visual, consistência e usabilidade.</p></div>
+          <div class="skill"><span class="num">07 / TOOLS</span><h3 data-i18n="skill.7.t">Ferramentas</h3><p data-i18n="skill.7.d">Git, VS Code, XAMPP e ambiente local.</p></div>
+          <div class="skill"><span class="num">08 / MINDSET</span><h3 data-i18n="skill.8.t">Resolução de problemas</h3><p data-i18n="skill.8.d">Análise, autonomia e aprendizagem contínua.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="servicos">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="kicker" data-i18n="serv.kicker">O que ofereço</div>
+            <h2 data-i18n="serv.title">Serviços.</h2>
+          </div>
+          <p class="section-desc" data-i18n="serv.desc">Trabalho com empresas, instituições e pessoas que precisam de soluções digitais funcionais.</p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service">
+            <div class="service-num">01</div>
+            <h3 data-i18n="serv.1.t">Criação de webapps</h3>
+            <p data-i18n="serv.1.d">Desenvolvimento de aplicações web personalizadas, do conceito à publicação.</p>
+          </div>
+          <div class="service">
+            <div class="service-num">02</div>
+            <h3 data-i18n="serv.2.t">Sistemas de gestão</h3>
+            <p data-i18n="serv.2.d">Sistemas internos para organizar informação, processos e utilizadores.</p>
+          </div>
+          <div class="service">
+            <div class="service-num">03</div>
+            <h3 data-i18n="serv.3.t">Manutenção e suporte</h3>
+            <p data-i18n="serv.3.d">Actualização, correcção de erros e suporte técnico de sites e aplicações.</p>
+          </div>
+          <div class="service">
+            <div class="service-num">04</div>
+            <h3 data-i18n="serv.4.t">Bases de dados e integração</h3>
+            <p data-i18n="serv.4.d">Modelação, migração e integração de bases de dados com aplicações web.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experiencia">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="kicker" data-i18n="exp.kicker">Percurso</div>
+            <h2 data-i18n="exp.title">Formação & prática.</h2>
+          </div>
+          <p class="section-desc" data-i18n="exp.desc">Uma base técnica que combina programação, suporte e experiência prática em contexto de trabalho.</p>
+        </div>
+
+        <div class="experience">
+          <div class="period" data-i18n="exp.1.period">Formação técnica</div>
+          <div>
+            <h3 data-i18n="exp.1.title">Técnico de Programação de Aplicações Web — CV5</h3>
+            <p data-i18n="exp.1.desc">Formação concluída em 2026, no Instituto de Transportes e Comunicações, com foco no desenvolvimento de aplicações web e na construção de soluções funcionais.</p>
+          </div>
+        </div>
+        <div class="experience">
+          <div class="period" data-i18n="exp.2.period">Experiência prática</div>
+          <div>
+            <h3 data-i18n="exp.2.title">Estagiário de Desenvolvimento Web e Suporte Informático</h3>
+            <p data-i18n="exp.2.desc">Ministério da Educação e Cultura (MEC) — 6 meses. Apoio no desenvolvimento e manutenção de aplicações web, criação de páginas com HTML, CSS, JavaScript e PHP, gestão de bases de dados, operações CRUD, suporte técnico a utilizadores e testes de funcionamento das aplicações.</p>
+          </div>
+        </div>
+        <div class="experience">
+          <div class="period" data-i18n="exp.3.period">Base técnica</div>
+          <div>
+            <h3 data-i18n="exp.3.title">Suporte informático</h3>
+            <p data-i18n="exp.3.desc">Conhecimentos de instalação, configuração, manutenção e resolução de problemas informáticos, complementando o trabalho de programação.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contacto">
+      <div class="wrap">
+        <div class="contact-box">
+          <div>
+            <div class="kicker" data-i18n="contact.kicker">Contacto</div>
+            <h2 data-i18n="contact.title">Tem um projecto em mente?</h2>
+            <p data-i18n="contact.desc">Estou aberto a oportunidades, colaboração em projectos e conversas sobre tecnologia e desenvolvimento web.</p>
+
+            <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="a8c9afc6-cf75-4996-a64a-e32199f4e7bf">
+              <input type="hidden" name="subject" value="Novo contacto através do portfólio">
+              <input type="checkbox" name="botcheck" style="display:none">
+
+              <div class="form-row">
+                <label>
+                  <span data-i18n="form.name">Nome</span>
+                  <input type="text" name="name" required>
+                </label>
+                <label>
+                  <span data-i18n="form.email">Email</span>
+                  <input type="email" name="email" required>
+                </label>
+              </div>
+              <label>
+                <span data-i18n="form.message">Mensagem</span>
+                <textarea name="message" rows="4" required></textarea>
+              </label>
+              <button type="submit" class="btn" data-i18n="form.submit">Enviar mensagem ↗</button>
+              <p class="form-status" id="formStatus"></p>
+            </form>
+          </div>
+          <div class="contact-actions">
+            <a class="btn ghost" href="https://wa.me/258842324583" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a>
+            <a class="btn ghost" href="mailto:Allan.melomeloallan@gmail.com">Email ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <span>© <span id="year"></span> Allan Marcelino Melo · <span data-i18n="footer.note">Feito com intenção.</span></span>
+      <div class="footer-links">
+        <a href="https://github.com/Melo035" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <a href="https://www.linkedin.com/in/allan-melo-710100260/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
